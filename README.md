@@ -15,3 +15,5 @@ está no topo do código
 apenas remova os /*  */ da opção que você queira
 
 e adicione na no background atual.
+
+**Créditos ao roycy**
