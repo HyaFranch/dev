@@ -6,7 +6,9 @@ um código opensource que personalizei e adicionei mais coisas
 
 mais opções de background
 
-para trocar o tipo de background,crs/css/style1.css
+para trocar o tipo de background
+
+crs/css/style1.css
 
 está no topo do código
 
