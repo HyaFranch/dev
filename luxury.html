@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hub Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        button {
+            background: linear-gradient(45deg, #000, #ffd700);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        button img {
+            margin-right: 5px;
+        }
+
+        button:hover {
+            filter: brightness(110%);
+        }
+    </style>
+    <!-- Open Graph and Twitter Card meta tags for link preview -->
+    <meta property="og:title" content="Luxury Hub Tutorial">
+    <meta property="og:description" content="Descrição do seu site aqui">
+    <meta property="og:image" content="URL_DA_IMAGEM">
+    <meta property="og:url" content="URL_DO_SEU_SITE">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Luxury Hub Tutorial">
+    <meta name="twitter:description" content="Descrição do seu site aqui">
+    <meta name="twitter:image" content="URL_DA_IMAGEM">
+</head>
+
+<body>
+    <header>
+        <h1>Luxury Hub Tutorial By Hyafranch</h1>
+        <button onclick="location.href='https://discord.com/invite/avXUF4xUxv'">
+            <img src="https://cdn.discordapp.com/attachments/1181697169112191091/1204108403169828864/1197920469039448094.png" alt="Foto" width="30" height="30"> Discord Server (Click)
+        </button>
+
+        <!-- Select menu for language -->
+        <select id="languageSelector" style="margin: 10px;">
+            <option value="pt">Português brasileiro</option>
+            <option value="en">English</option>
+            <option value="vi">Vietnamese</option>
+            <option value="th">Thailand</option>
+        </select>
+    </header>
+
+    <section class="category">
+        <h2 id="translationPt">Resgatar key Luxury Hub</h2>
+        <p id="translationSiga">Siga o tutorial do vídeo abaixo</p>
+        <a id="translationChat" href="https://discord.com/channels/1102084708143222828/1102084710336835645" target="_blank">Clique aqui para ir ao chat de comandos</a>
+        <video src="https://cdn.discordapp.com/attachments/1181697169112191091/1204119917368967228/Screenrecorder-2024-02-05-14-42-07-456.mp4" controls
+            poster="https://cdn.discordapp.com/attachments/1181697169112191091/1204114043351212072/images_5.jpg">
+            Seu navegador não suporta o formato de vídeo, baixe o Google Chrome
+        </video>
+    </section>
+
+    <section class="category">
+        <h2 id="translationReceber">Receber o script</h2>
+        <p id="translationDigite">Digite /script no chat de comandos igual no tutorial acima</p>
+        <video src="https://cdn.discordapp.com/attachments/1181697169112191091/1204114563717398569/Screenrecorder-2024-02-05-13-51-39-5.mp4" controls
+            poster="https://cdn.discordapp.com/attachments/1181697169112191091/1204114043351212072/images_5.jpg">
+            Seu navegador não suporta o formato de vídeo, baixe o Google Chrome
+        </video>
+    </section>
+
+    <script>
+        const languageSelector = document.getElementById('languageSelector');
+        const translationPt = document.getElementById('translationPt');
+        const translationSiga = document.getElementById('translationSiga');
+        const translationChat = document.getElementById('translationChat');
+        const translationReceber = document.getElementById('translationReceber');
+        const translationDigite = document.getElementById('translationDigite');
+
+        languageSelector.addEventListener('change', () => {
+            const selectedLanguage = languageSelector.value;
+
+            if (selectedLanguage === 'pt') {
+                translationPt.textContent = 'Resgatar chave Luxury Hub';
+                translationSiga.textContent = 'Siga o tutorial do vídeo abaixo';
+                translationChat.textContent = 'Clique aqui para ir ao chat de comandos';
+                translationReceber.textContent = 'Receber o script';
+                translationDigite.textContent = 'Digite /script no chat de comandos igual no tutorial acima';
+            } else if (selectedLanguage === 'en') {
+                translationPt.textContent = 'Redeem Luxury Hub key';
+                translationSiga.textContent = 'Follow the video tutorial below';
+                translationChat.textContent = 'Click here to go to the command chat';
+                translationReceber.textContent = 'Receive the script';
+                translationDigite.textContent = 'Type /script in the command chat as in the tutorial above';
+            } else if (selectedLanguage === 'vi') {
+                translationPt.textContent = 'Nhận key Luxury Hub';
+                translationSiga.textContent = 'Theo dõi hướng dẫn video dưới đây';
+                translationChat.textContent = 'Nhấn vào đây để vào trò chuyện lệnh';
+                translationReceber.textContent = 'Nhận script';
+                translationDigite.textContent = 'Nhập /script trong trò chuyện lệnh giống như hướng dẫn ở trên';
+            } else if (selectedLanguage === 'th') {
+                translationPt.textContent = 'รับคีย์ Luxury Hub';
+                translationSiga.textContent = 'ติดตามคำแนะนำในวิดีโอด้านล่าง';
+                translationChat.textContent = 'คลิกที่นี่เพื่อไปยังแชทคำสั่ง';
+                translationReceber.textContent = 'รับสคริปต์';
+                translationDigite.textContent = 'พิมพ์ /script ในแชทคำสั่งเช่นเดียวกับที่แสดงในวิดีโอด้านบน';
+            }
+        });
+    </script>
+
+</body>
+
+</html>
