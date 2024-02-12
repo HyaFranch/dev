@@ -7,8 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const translationDigite = document.getElementById('translationDigite');
     const translationResetar = document.getElementById('translationResetar');
     const translationResetarDescricao = document.getElementById('translationResetarDescricao');
-    const translationCliqueAqui = document.getElementById('translationCliqueAqui');
     const translationCliqueAquiTexto = document.getElementById('translationCliqueAquiTexto');
+
+    const translationRgwl = document.getElementById('translationRgwl');
+    const translationDrg = document.getElementById('translationDrg');
 
     languageSelector.addEventListener('change', () => {
         const selectedLanguage = languageSelector.value;
@@ -22,6 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
             translationResetar.textContent = 'Resetar HWID';
             translationResetarDescricao.textContent = 'Digite /resethwid no chat de comandos igual no tutorial acima';
             translationCliqueAquiTexto.textContent = 'Discord Server (Clique aqui)';
+            translationRgwl.textContent = 'Resgatar Instant reset hwid';
+            translationDrg.textContent = 'Digite /redeem-instance mode:life time - no chat de comandos igual ao vídeo abaixo';
         } else if (selectedLanguage === 'en') {
             translationPt.textContent = 'Redeem Luxury Hub key';
             translationSiga.textContent = 'Follow the video tutorial below';
@@ -31,6 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
             translationResetar.textContent = 'Reset HWID';
             translationResetarDescricao.textContent = 'Type /resethwid in the command chat as in the tutorial above';
             translationCliqueAquiTexto.textContent = 'Discord Server (Click here)';
+            translationRgwl.textContent = 'Redeem Instant reset hwid';
+            translationDrg.textContent = 'Type /redeem-instance mode:life time - in the command chat as in the video below';
         } else if (selectedLanguage === 'vi') {
             translationPt.textContent = 'Nhận key Luxury Hub';
             translationSiga.textContent = 'Theo dõi hướng dẫn video dưới đây';
@@ -40,6 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
             translationResetar.textContent = 'Đặt lại HWID';
             translationResetarDescricao.textContent = 'Nhập /resethwid trong trò chuyện lệnh giống như hướng dẫn ở trên';
             translationCliqueAquiTexto.textContent = 'Discord Server (Nhấn vào đây)';
+            translationRgwl.textContent = 'Nhận Instant reset hwid';
+            translationDrg.textContent = 'Nhập /redeem-instance mode:life time - trong trò chuyện lệnh giống như trong video dưới đây';
         } else if (selectedLanguage === 'th') {
             translationPt.textContent = 'รับคีย์ Luxury Hub';
             translationSiga.textContent = 'ติดตามคำแนะนำในวิดีโอด้านล่าง';
@@ -49,6 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
             translationResetar.textContent = 'รีเซ็ต HWID';
             translationResetarDescricao.textContent = 'พิมพ์ /resethwid ในแชทคำสั่งเช่นเดียวกับที่แสดงในวิดีโอด้านบน';
             translationCliqueAquiTexto.textContent = 'Discord Server (คลิกที่นี่)';
+            translationRgwl.textContent = 'รับ Instant reset hwid';
+            translationDrg.textContent = 'พิมพ์ /redeem-instance mode:life time - ในแชทคำสั่งเช่นเดียวกับที่แสดงในวิดีโอด้านล่าง';
         }
     });
 });
